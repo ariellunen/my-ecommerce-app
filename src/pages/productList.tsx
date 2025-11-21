@@ -1,7 +1,7 @@
 import { useState } from "react";
 import products from "../data/product.json";
 import type { Product } from "../types/product";
-import ProductCard from "../ProductCard";
+import ProductCard from "../components/ProductCard";
 
 export default function ProductsList() {
   const [search, setSearch] = useState("");
