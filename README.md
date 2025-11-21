@@ -47,30 +47,45 @@ Users can browse digital products, search, and view detailed information with a 
 
 ## 📁 Folder Structure
 
+```text
 src/
 ├── components/
-│ └── ProductCard.tsx
+│   └── ProductCard.tsx
 ├── data/
-│ └── product.json
+│   └── product.json
 ├── pages/
-│ ├── productList.tsx
-│ ├── productDetails.tsx
-│ └── NotFound.tsx
+│   ├── productList.tsx
+│   ├── productDetails.tsx
+│   └── NotFound.tsx
 ├── router/
-│ └── index.tsx
+│   └── index.tsx
 ├── types/
-│ └── product.ts
+│   └── product.ts
 ├── App.tsx
 ├── main.tsx
 └── index.css
-
+```
 
 ---
 
 ## 🧪 Installation & Running Locally
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ariellunen/my-ecommerce-app
 cd my-ecommerce-shop
 npm install
 npm run dev
+```
+
+---
+
+## 🔨 Build
+```bash
+npm run build
+```
+
+---
+
+## 🌐 Deployment
+Hosted on Vercel
+👉 https://my-ecommerce-app-coral.vercel.app/
