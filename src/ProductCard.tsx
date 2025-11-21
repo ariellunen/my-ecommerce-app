@@ -11,8 +11,7 @@ export default function ProductCard({ product }: Props) {
   return (
     <div
       onClick={() => navigate(`/product/${product.id}`)}
-      className="bg-white rounded-lg overflow-hidden shadow hover:shadow-lg
-                 transition cursor-pointer"
+      className="bg-white rounded-lg overflow-hidden shadow hover:shadow-xl hover:scale-[1.03] transition-transform duration-300 ease-out cursor-pointer opacity-0 animate-fadeIn"
     >
       <img
         src={product.thumbnailUrl}
