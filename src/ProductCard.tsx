@@ -1,4 +1,4 @@
-import type { Product } from "../types/product";
+import type { Product } from "./types/product";
 import { useNavigate } from "react-router-dom";
 
 type Props = {
